@@ -1,0 +1,335 @@
+{
+  "users": {
+    "goldpaymentsbank@goldpayments.mx": {
+      "id": "demo-gold",
+      "name": "Gold Payments Demo",
+      "email": "goldpaymentsbank@goldpayments.mx",
+      "passwordHash": "Demo1234!",
+      "role": "USER",
+      "clabe": "646180300123456784",
+      "accounts": [
+        {
+          "id": "gold-cheques",
+          "name": "Cuenta de Cheques",
+          "clabe": "646180300123456784",
+          "accountNumber": "30012345678",
+          "bankName": "Sistema de Transferencias y Pagos STP",
+          "balance": 1770486.1,
+          "currency": "MXN",
+          "type": "CORRIENTE",
+          "color": "bg-gradient-to-br from-amber-600 via-amber-700 to-amber-900 border border-amber-500 text-white shadow-lg shadow-amber-950/30"
+        },
+        {
+          "id": "gold-ahorro",
+          "name": "Fondo de Ahorro",
+          "clabe": "646180300123456797",
+          "accountNumber": "30012345679",
+          "bankName": "Sistema de Transferencias y Pagos STP",
+          "balance": 420103.5,
+          "currency": "MXN",
+          "type": "AHORRO",
+          "color": "bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 border border-slate-600 text-white"
+        },
+        {
+          "id": "gold-inversion",
+          "name": "Cuenta de Inversión",
+          "clabe": "646180300123456803",
+          "accountNumber": "30012345680",
+          "bankName": "Sistema de Transferencias y Pagos STP",
+          "balance": 1280000,
+          "currency": "MXN",
+          "type": "INVERSION",
+          "color": "bg-gradient-to-br from-cyan-800 via-teal-900 to-slate-950 border border-teal-500/50 text-white"
+        },
+        {
+          "id": "ext-y7b117e8z",
+          "name": "Mi Cuenta HSBC",
+          "clabe": "021180872985539309",
+          "accountNumber": "87298553930",
+          "bankName": "HSBC",
+          "balance": 15000,
+          "currency": "MXN",
+          "type": "EXTERNA",
+          "color": "bg-gradient-to-r from-teal-900 to-emerald-950 text-white border border-emerald-500/30 font-medium"
+        },
+        {
+          "id": "ext-6ys46lkpy",
+          "name": "Mi Cuenta Santander",
+          "clabe": "014180247447364816",
+          "accountNumber": "24744736481",
+          "bankName": "Santander SERFIN",
+          "balance": 15000,
+          "currency": "MXN",
+          "type": "EXTERNA",
+          "color": "bg-gradient-to-r from-teal-900 to-emerald-950 text-white border border-emerald-500/30 font-medium"
+        }
+      ]
+    },
+    "admin@goldpayments.mx": {
+      "id": "admin-master",
+      "name": "Administrador Supremo",
+      "email": "admin@goldpayments.mx",
+      "passwordHash": "GoldAdmin2024!",
+      "role": "ADMIN",
+      "clabe": "646180000000000012",
+      "accounts": [
+        {
+          "id": "admin-vault",
+          "name": "Cuenta Maestra Suprema",
+          "clabe": "646180000000000012",
+          "accountNumber": "00000000001",
+          "bankName": "Banco de México",
+          "balance": 1000000000000,
+          "currency": "MXN",
+          "type": "CORRIENTE",
+          "color": "bg-gradient-to-r from-yellow-500 via-yellow-600 to-amber-700 text-white font-bold border border-yellow-400 shadow-xl shadow-yellow-500/20"
+        }
+      ]
+    },
+    "goldtransfers48@gmail.com": {
+      "id": "user-6hdffbqvm",
+      "name": "Oscar Bueno ",
+      "email": "goldtransfers48@gmail.com",
+      "role": "USER",
+      "clabe": "646180301080043099",
+      "accounts": [
+        {
+          "id": "acct-cheques-nt42r",
+          "name": "Cuenta Corriente STP",
+          "clabe": "646180301080043099",
+          "accountNumber": "30108004309",
+          "bankName": "Sistema de Transferencias y Pagos STP",
+          "balance": 45000,
+          "currency": "MXN",
+          "type": "CORRIENTE",
+          "color": "bg-gradient-to-br from-indigo-800 to-indigo-950 border border-indigo-500 text-white shadow-lg"
+        },
+        {
+          "id": "ext-yn8rxkzww",
+          "name": "Mi Cuenta HSBC",
+          "clabe": "021180441363528923",
+          "accountNumber": "44136352892",
+          "bankName": "HSBC",
+          "balance": 15000,
+          "currency": "MXN",
+          "type": "EXTERNA",
+          "color": "bg-gradient-to-r from-teal-900 to-emerald-950 text-white border border-emerald-500/30 font-medium"
+        },
+        {
+          "id": "ext-7d1gpxrfp",
+          "name": "Mi Cuenta Nu",
+          "clabe": "638180331557554536",
+          "accountNumber": "33155755453",
+          "bankName": "Nu México",
+          "balance": 15000,
+          "currency": "MXN",
+          "type": "EXTERNA",
+          "color": "bg-gradient-to-r from-teal-900 to-emerald-950 text-white border border-emerald-500/30 font-medium"
+        }
+      ],
+      "passwordHash": "Admin123"
+    },
+    "buenooscar619@gmail.com": {
+      "id": "user-6hdffbqvm",
+      "name": "Oscar Bueno ",
+      "email": "buenooscar619@gmail.com",
+      "role": "USER",
+      "clabe": "646180301080043099",
+      "accounts": [
+        {
+          "id": "acct-cheques-nt42r",
+          "name": "Cuenta Corriente STP",
+          "clabe": "646180301080043099",
+          "accountNumber": "30108004309",
+          "bankName": "Sistema de Transferencias y Pagos STP",
+          "balance": 45000,
+          "currency": "MXN",
+          "type": "CORRIENTE",
+          "color": "bg-gradient-to-br from-indigo-800 to-indigo-950 border border-indigo-500 text-white shadow-lg"
+        },
+        {
+          "id": "ext-yn8rxkzww",
+          "name": "Mi Cuenta HSBC",
+          "clabe": "021180441363528923",
+          "accountNumber": "44136352892",
+          "bankName": "HSBC",
+          "balance": 15000,
+          "currency": "MXN",
+          "type": "EXTERNA",
+          "color": "bg-gradient-to-r from-teal-900 to-emerald-950 text-white border border-emerald-500/30 font-medium"
+        },
+        {
+          "id": "ext-7d1gpxrfp",
+          "name": "Mi Cuenta Nu",
+          "clabe": "638180331557554536",
+          "accountNumber": "33155755453",
+          "bankName": "Nu México",
+          "balance": 15000,
+          "currency": "MXN",
+          "type": "EXTERNA",
+          "color": "bg-gradient-to-r from-teal-900 to-emerald-950 text-white border border-emerald-500/30 font-medium"
+        }
+      ],
+      "passwordHash": "Admin123"
+    }
+  },
+  "motherAccountBalance": 2485750.5,
+  "liveTransactions": [
+    {
+      "id": "tx-ufqol3edg",
+      "senderName": "Oscar Bueno ",
+      "senderClabe": "646180301080043099",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "646180401615612997",
+      "amount": 5000,
+      "concept": "Pago alquiler",
+      "reference": "662383",
+      "date": "2026-05-20T22:56:10.161Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-6tncgsz59",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "021650064944977732",
+      "amount": 500,
+      "concept": "Pago factura",
+      "reference": "296215",
+      "date": "2026-05-20T22:32:09.942Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-j8jdiyq40",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "021650064944977732",
+      "amount": 5000,
+      "concept": "Pago factura",
+      "reference": "132893",
+      "date": "2026-05-20T21:58:21.093Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-ymy7ucjej",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "021650064944977732",
+      "amount": 5000,
+      "concept": "Pago factura",
+      "reference": "563402",
+      "date": "2026-05-20T21:51:21.625Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-in-n6jtkp5v2",
+      "senderName": "MercadoLibre Distribuidor S.A.",
+      "senderClabe": "012180009999999995",
+      "receiverName": "Cuenta Madre STP",
+      "receiverClabe": "646180308561442581",
+      "amount": 25000,
+      "concept": "Liquidación Diaria STP",
+      "reference": "833541",
+      "date": "2026-05-20T21:43:57.861Z",
+      "type": "SPEI_ENTRADA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-ffsfazr7a",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "646180401615612997",
+      "amount": 500,
+      "concept": "Pago alquiler",
+      "reference": "610402",
+      "date": "2026-05-20T21:23:44.082Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-d1nupzw52",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "646180309999999993",
+      "amount": 2246.4,
+      "concept": "Liquidación Factura PayPal KX7P8RHTHAPCQ9AJ",
+      "reference": "662128",
+      "date": "2026-05-20T21:19:15.593Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-3bqlipysi",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "646180309999999993",
+      "amount": 1487.5,
+      "concept": "Liquidación Factura PayPal RVTG3GWV6BHHQRE3",
+      "reference": "210591",
+      "date": "2026-05-20T21:15:43.706Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-uvmc9zqay",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Cuenta Madre STP STP",
+      "receiverClabe": "646180308561442581",
+      "amount": 5000,
+      "concept": "Depósito STP Cuenta Madre",
+      "reference": "793382",
+      "date": "2026-05-20T21:08:50.830Z",
+      "type": "INTERNA_ENVIADA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-u1gqmhify",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "021650064944977732",
+      "amount": 5000,
+      "concept": "Pago factura",
+      "reference": "432655",
+      "date": "2026-05-20T21:05:51.645Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-e9xrwnlwj",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Destinatario SPEI Externo",
+      "receiverClabe": "021650064944977732",
+      "amount": 50000,
+      "concept": "Pago factura",
+      "reference": "232466",
+      "date": "2026-05-20T21:05:22.779Z",
+      "type": "SPEI_SALIDA",
+      "status": "EXITOSO"
+    },
+    {
+      "id": "tx-n8eo2ary1",
+      "senderName": "Gold Payments Demo",
+      "senderClabe": "646180300123456784",
+      "receiverName": "Cuenta Madre STP STP",
+      "receiverClabe": "646180308561442581",
+      "amount": 5000,
+      "concept": "Depósito STP Cuenta Madre",
+      "reference": "155277",
+      "date": "2026-05-20T21:04:51.503Z",
+      "type": "INTERNA_ENVIADA",
+      "status": "EXITOSO"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Gold Payments Bank",
+  "description": "Plataforma bancaria premium con cuenta STP STP, transferencias SPEI, gestión multi-cuenta, 10 años de transacciones y panel del administrador.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
